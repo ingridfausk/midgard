@@ -9,7 +9,7 @@ testpaths = ["tests",]
 
 # Requirements
 requires           = ["dataclasses", "importlib_resources", "numpy", "pandas", "pint", "pycurl", "scipy", "statsmodels"]
-dev-requires       = ["black", "bumpversion", "flit", "mkdocs", "mkdocs-bootswatch", "mypy", "pytest", "pytest-cov"]
+dev-requires       = ["black", "bump-my-version", "flit", "mkdocs", "mkdocs-bootswatch", "mypy", "pytest", "pytest-cov"]
 requires-python = ">=3.11"
 
 [project]
