@@ -63,3 +63,15 @@ Repository = "https://github.com/kartverket/midgard"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 
+# Needed for release with bump-my-version
+[tool.bumpversion]
+current_version = "1.4.0"
+commit = false
+tag = false
+
+[[tool.bumpversion.files]]
+filename = "midgard/__init__.py"
+
+[[tool.bumpversion.files]]
+filename = "website_tools/mkdocs.yml_template"
+
